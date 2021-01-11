@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+assertEqual = (actual, expected) => {
   if (actual === expected) {
     console.log(`✅✅✅Assertation Passed: ${actual} === ${expected}`);
   } else {
@@ -11,3 +11,5 @@ assertEqual(1, 1);
 assertEqual("1", 1);
 assertEqual('bird', 'bird');
 assertEqual('bird', "Bird");
+
+module.exports = assertEqual;
