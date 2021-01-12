@@ -1,7 +1,7 @@
 {
-  "name": "lotide-week1",
+  "name": "@jacquelinesmith190/lotidefunctions",
   "version": "1.0.0",
-  "description": "",
+  "description": "A function library",
   "main": "assert-arrays-equal.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/JSmith604/lotide-week1-.git"
   },
-  "author": "",
+  "author": "jacquelinesmith190",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JSmith604/lotide-week1-/issues"
