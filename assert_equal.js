@@ -1,15 +1,13 @@
 assertEqual = (actual, expected) => {
   if (actual === expected) {
     console.log(`✅✅✅Assertation Passed: ${actual} === ${expected}`);
+    return true;
   } else {
     console.log(`❌❌❌Assertation Failed: ${actual} !== ${expected}`);
+    return false;
   }
   return assertEqual;
 };
 
-assertEqual(1, 1);
-assertEqual("1", 1);
-assertEqual('bird', 'bird');
-assertEqual('bird', "Bird");
 
 module.exports = assertEqual;
